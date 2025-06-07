@@ -1,0 +1,76 @@
+<html>
+
+<head><title>Colores de fondo HTML</title></head>
+
+<body bgcolor="#000000">
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgux3GFGNMEf0hJqC-jucb99JUkIbE_QSlGx_ILl0lS5R38pO9F4EQeKqtZCN8SqmmkIIkCtXWrc1Dmg8NLSQHoA3PTY8PZ5qc8MXIQdxGGm7IAl_zcOPQsAKTkP7RObLn56UJRYuvNo7WocGPYP-G6QOxPrKKeptoyYr4vH0wdPk8hGs4Q5AStDBXiLKDa/s2400/1000218490.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" data-original-height="978" data-original-width="2400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgux3GFGNMEf0hJqC-jucb99JUkIbE_QSlGx_ILl0lS5R38pO9F4EQeKqtZCN8SqmmkIIkCtXWrc1Dmg8NLSQHoA3PTY8PZ5qc8MXIQdxGGm7IAl_zcOPQsAKTkP7RObLn56UJRYuvNo7WocGPYP-G6QOxPrKKeptoyYr4vH0wdPk8hGs4Q5AStDBXiLKDa/s320/1000218490.jpg" width="320" /></a>
+
+<head>
+    <style>
+        body {
+            margin: 100px;
+        }
+
+        #textbox {
+            width: 40vw;
+            height: 30vh;
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 70px;
+            height: 40px;
+            margin-top: 120px;
+            margin-left: 50px;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            box-shadow: grey;
+            position: absolute;
+        }
+
+        #sample {
+            width: 150vw;
+            margin: 50px;
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            font-size: x-large;
+            position: absolute;
+        }
+
+        h1 {
+            margin-left: 50px;
+            margin-top: 160px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sample">
+        https://archive.org/download/8219288391837472/KRATOSTV22.m3u
+    </div>
+    <br />
+
+    <button onclick="copyText()">Copy</button>
+    <br />
+
+    <h1>Copied Text:</h1><br />
+    <textarea id="textbox"></textarea>
+
+    <script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("https://archive.org/download/8219288391837472/KRATOSTV22.m3u");
+        }
+    </script>
+</body>
+
+</html>
+
+</body></html>
