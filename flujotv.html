@@ -5,44 +5,553 @@
       <link href="style.css" rel="stylesheet" type="text/css"/>
    </head>
 <body bgcolor="#000000">
-     <style>
-        }
+<style id='wp-emoji-styles-inline-css' type='text/css'>
 
-        #textbox {
-            width: 40vw;
-            height: 30vh;
-            position: absolute;
-            margin-left: 50px;
-            margin-top: 20px;
-        }
-        
-        button {
-            width: 150px;
-            height: 60px;
-            margin-top: 0px;
-            margin-left: 0px;
-            background-color: blue;
-            color: white;
-            border-radius: 10px;
-            box-shadow: grey;
-            position: absolute;
-        }
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='storefront-gutenberg-blocks-css' href='https://streamingmanila.com/wp-content/themes/storefront/assets/css/base/gutenberg-blocks.css?ver=4.6.0' type='text/css' media='all' />
+<style id='storefront-gutenberg-blocks-inline-css' type='text/css'>
 
-        #sample {
-            width: 80vw;
-            margin: 50px;
-            background-color: blue;
-            color: white;
-            padding: 20px;
-            font-size: x-large;
-            position: absolute;
-        }
+				.wp-block-button__link:not(.has-text-color) {
+					color: #333333;
+				}
 
-        h1 {
-            margin-left: 50px;
-            margin-top: 160px;
-        }
-    </style>
+				.wp-block-button__link:not(.has-text-color):hover,
+				.wp-block-button__link:not(.has-text-color):focus,
+				.wp-block-button__link:not(.has-text-color):active {
+					color: #333333;
+				}
+
+				.wp-block-button__link:not(.has-background) {
+					background-color: #eeeeee;
+				}
+
+				.wp-block-button__link:not(.has-background):hover,
+				.wp-block-button__link:not(.has-background):focus,
+				.wp-block-button__link:not(.has-background):active {
+					border-color: #d5d5d5;
+					background-color: #d5d5d5;
+				}
+
+				.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+					background-color: #eeeeee;
+					border-color: #eeeeee;
+					color: #333333;
+				}
+
+				.wp-block-quote footer,
+				.wp-block-quote cite,
+				.wp-block-quote__citation {
+					color: #6d6d6d;
+				}
+
+				.wp-block-pullquote cite,
+				.wp-block-pullquote footer,
+				.wp-block-pullquote__citation {
+					color: #6d6d6d;
+				}
+
+				.wp-block-image figcaption {
+					color: #6d6d6d;
+				}
+
+				.wp-block-separator.is-style-dots::before {
+					color: #333333;
+				}
+
+				.wp-block-file a.wp-block-file__button {
+					color: #333333;
+					background-color: #eeeeee;
+					border-color: #eeeeee;
+				}
+
+				.wp-block-file a.wp-block-file__button:hover,
+				.wp-block-file a.wp-block-file__button:focus,
+				.wp-block-file a.wp-block-file__button:active {
+					color: #333333;
+					background-color: #d5d5d5;
+				}
+
+				.wp-block-code,
+				.wp-block-preformatted pre {
+					color: #6d6d6d;
+				}
+
+				.wp-block-table:not( .has-background ):not( .is-style-stripes ) tbody tr:nth-child(2n) td {
+					background-color: #fdfdfd;
+				}
+
+				.wp-block-cover .wp-block-cover__inner-container h1:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h2:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h3:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h4:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h5:not(.has-text-color),
+				.wp-block-cover .wp-block-cover__inner-container h6:not(.has-text-color) {
+					color: #000000;
+				}
+
+				.wc-block-components-price-slider__range-input-progress,
+				.rtl .wc-block-components-price-slider__range-input-progress {
+					--range-color: #ffc300;
+				}
+
+				/* Target only IE11 */
+				@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+					.wc-block-components-price-slider__range-input-progress {
+						background: #ffc300;
+					}
+				}
+
+				.wc-block-components-button:not(.is-link) {
+					background-color: #333333;
+					color: #ffffff;
+				}
+
+				.wc-block-components-button:not(.is-link):hover,
+				.wc-block-components-button:not(.is-link):focus,
+				.wc-block-components-button:not(.is-link):active {
+					background-color: #1a1a1a;
+					color: #ffffff;
+				}
+
+				.wc-block-components-button:not(.is-link):disabled {
+					background-color: #333333;
+					color: #ffffff;
+				}
+
+				.wc-block-cart__submit-container {
+					background-color: #ffffff;
+				}
+
+				.wc-block-cart__submit-container::before {
+					color: rgba(220,220,220,0.5);
+				}
+
+				.wc-block-components-order-summary-item__quantity {
+					background-color: #ffffff;
+					border-color: #6d6d6d;
+					box-shadow: 0 0 0 2px #ffffff;
+					color: #6d6d6d;
+				}
+			
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://streamingmanila.com/wp-includes/css/dashicons.min.css?ver=6.6.2' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='storefront-style-css' href='https://streamingmanila.com/wp-content/themes/storefront/style.css?ver=4.6.0' type='text/css' media='all' />
+<style id='storefront-style-inline-css' type='text/css'>
+
+			.main-navigation ul li a,
+			.site-title a,
+			ul.menu li a,
+			.site-branding h1 a,
+			button.menu-toggle,
+			button.menu-toggle:hover,
+			.handheld-navigation .dropdown-toggle {
+				color: #ffc300;
+			}
+
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				border-color: #ffc300;
+			}
+
+			.main-navigation ul li a:hover,
+			.main-navigation ul li:hover > a,
+			.site-title a:hover,
+			.site-header ul.menu li.current-menu-item > a {
+				color: #ffff41;
+			}
+
+			table:not( .has-background ) th {
+				background-color: #f8f8f8;
+			}
+
+			table:not( .has-background ) tbody td {
+				background-color: #fdfdfd;
+			}
+
+			table:not( .has-background ) tbody tr:nth-child(2n) td,
+			fieldset,
+			fieldset legend {
+				background-color: #fbfbfb;
+			}
+
+			.site-header,
+			.secondary-navigation ul ul,
+			.main-navigation ul.menu > li.menu-item-has-children:after,
+			.secondary-navigation ul.menu ul,
+			.storefront-handheld-footer-bar,
+			.storefront-handheld-footer-bar ul li > a,
+			.storefront-handheld-footer-bar ul li.search .site-search,
+			button.menu-toggle,
+			button.menu-toggle:hover {
+				background-color: #0a0a0a;
+			}
+
+			p.site-description,
+			.site-header,
+			.storefront-handheld-footer-bar {
+				color: #ff5733;
+			}
+
+			button.menu-toggle:after,
+			button.menu-toggle:before,
+			button.menu-toggle span:before {
+				background-color: #ffc300;
+			}
+
+			h1, h2, h3, h4, h5, h6, .wc-block-grid__product-title {
+				color: #333333;
+			}
+
+			.widget h1 {
+				border-bottom-color: #333333;
+			}
+
+			body,
+			.secondary-navigation a {
+				color: #6d6d6d;
+			}
+
+			.widget-area .widget a,
+			.hentry .entry-header .posted-on a,
+			.hentry .entry-header .post-author a,
+			.hentry .entry-header .post-comments a,
+			.hentry .entry-header .byline a {
+				color: #727272;
+			}
+
+			a {
+				color: #ffc300;
+			}
+
+			a:focus,
+			button:focus,
+			.button.alt:focus,
+			input:focus,
+			textarea:focus,
+			input[type="button"]:focus,
+			input[type="reset"]:focus,
+			input[type="submit"]:focus,
+			input[type="email"]:focus,
+			input[type="tel"]:focus,
+			input[type="url"]:focus,
+			input[type="password"]:focus,
+			input[type="search"]:focus {
+				outline-color: #ffc300;
+			}
+
+			button, input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button {
+				background-color: #eeeeee;
+				border-color: #eeeeee;
+				color: #333333;
+			}
+
+			button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .widget-area .widget a.button.alt {
+				background-color: #333333;
+				border-color: #333333;
+				color: #ffffff;
+			}
+
+			button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .widget-area .widget a.button.alt:hover {
+				background-color: #1a1a1a;
+				border-color: #1a1a1a;
+				color: #ffffff;
+			}
+
+			.pagination .page-numbers li .page-numbers.current {
+				background-color: #e6e6e6;
+				color: #636363;
+			}
+
+			#comments .comment-list .comment-content .comment-text {
+				background-color: #f8f8f8;
+			}
+
+			.site-footer {
+				background-color: #ffc300;
+				color: #ff5733;
+			}
+
+			.site-footer a:not(.button):not(.components-button) {
+				color: #333333;
+			}
+
+			.site-footer .storefront-handheld-footer-bar a:not(.button):not(.components-button) {
+				color: #ffc300;
+			}
+
+			.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer .widget .widget-title, .site-footer .widget .widgettitle {
+				color: #333333;
+			}
+
+			.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-title {
+				color: #000000;
+			}
+
+			.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-content {
+				color: #000000;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.secondary-navigation ul.menu a:hover {
+					color: #ff704c;
+				}
+
+				.secondary-navigation ul.menu a {
+					color: #ff5733;
+				}
+
+				.main-navigation ul.menu ul.sub-menu,
+				.main-navigation ul.nav-menu ul.children {
+					background-color: #000000;
+				}
+
+				.site-header {
+					border-bottom-color: #000000;
+				}
+			}
+</style>
+<link rel='stylesheet' id='storefront-icons-css' href='https://streamingmanila.com/wp-content/themes/storefront/assets/css/base/icons.css?ver=4.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-fonts-css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C300%2C300italic%2C400italic%2C600%2C700%2C900&#038;subset=latin%2Clatin-ext&#038;ver=4.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-wallet-style-css' href='https://streamingmanila.com/wp-content/plugins/woo-wallet/assets/css/frontend.css?ver=1.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='storefront-woocommerce-style-css' href='https://streamingmanila.com/wp-content/themes/storefront/assets/css/woocommerce/woocommerce.css?ver=4.6.0' type='text/css' media='all' />
+<style id='storefront-woocommerce-style-inline-css' type='text/css'>
+@font-face {
+				font-family: star;
+				src: url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/star.eot);
+				src:
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix) format("embedded-opentype"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/star.woff) format("woff"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/star.ttf) format("truetype"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/star.svg#star) format("svg");
+				font-weight: 400;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: WooCommerce;
+				src: url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot);
+				src:
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix) format("embedded-opentype"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff) format("woff"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf) format("truetype"),
+					url(https://streamingmanila.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce) format("svg");
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			a.cart-contents,
+			.site-header-cart .widget_shopping_cart a {
+				color: #ffc300;
+			}
+
+			a.cart-contents:hover,
+			.site-header-cart .widget_shopping_cart a:hover,
+			.site-header-cart:hover > li > a {
+				color: #ffff41;
+			}
+
+			table.cart td.product-remove,
+			table.cart td.actions {
+				border-top-color: #ffffff;
+			}
+
+			.storefront-handheld-footer-bar ul li.cart .count {
+				background-color: #ffc300;
+				color: #0a0a0a;
+				border-color: #0a0a0a;
+			}
+
+			.woocommerce-tabs ul.tabs li.active a,
+			ul.products li.product .price,
+			.onsale,
+			.wc-block-grid__product-onsale,
+			.widget_search form:before,
+			.widget_product_search form:before {
+				color: #6d6d6d;
+			}
+
+			.woocommerce-breadcrumb a,
+			a.woocommerce-review-link,
+			.product_meta a {
+				color: #727272;
+			}
+
+			.wc-block-grid__product-onsale,
+			.onsale {
+				border-color: #6d6d6d;
+			}
+
+			.star-rating span:before,
+			.quantity .plus, .quantity .minus,
+			p.stars a:hover:after,
+			p.stars a:after,
+			.star-rating span:before,
+			#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+				color: #ffc300;
+			}
+
+			.widget_price_filter .ui-slider .ui-slider-range,
+			.widget_price_filter .ui-slider .ui-slider-handle {
+				background-color: #ffc300;
+			}
+
+			.order_details {
+				background-color: #f8f8f8;
+			}
+
+			.order_details > li {
+				border-bottom: 1px dotted #e3e3e3;
+			}
+
+			.order_details:before,
+			.order_details:after {
+				background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent 33.33%)
+			}
+
+			#order_review {
+				background-color: #ffffff;
+			}
+
+			#payment .payment_methods > li .payment_box,
+			#payment .place-order {
+				background-color: #fafafa;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice) {
+				background-color: #f5f5f5;
+			}
+
+			#payment .payment_methods > li:not(.woocommerce-notice):hover {
+				background-color: #f0f0f0;
+			}
+
+			.woocommerce-pagination .page-numbers li .page-numbers.current {
+				background-color: #e6e6e6;
+				color: #636363;
+			}
+
+			.wc-block-grid__product-onsale,
+			.onsale,
+			.woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+				color: #6d6d6d;
+			}
+
+			p.stars a:before,
+			p.stars a:hover~a:before,
+			p.stars.selected a.active~a:before {
+				color: #6d6d6d;
+			}
+
+			p.stars.selected a.active:before,
+			p.stars:hover a:before,
+			p.stars.selected a:not(.active):before,
+			p.stars.selected a.active:before {
+				color: #ffc300;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+				background-color: #eeeeee;
+				color: #333333;
+			}
+
+			.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			.button.added_to_cart:focus,
+			.button.wc-forward:focus {
+				outline-color: #ffc300;
+			}
+
+			.added_to_cart,
+			.site-header-cart .widget_shopping_cart a.button,
+			.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+				background-color: #eeeeee;
+				border-color: #eeeeee;
+				color: #333333;
+			}
+
+			.added_to_cart:hover,
+			.site-header-cart .widget_shopping_cart a.button:hover,
+			.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover {
+				background-color: #d5d5d5;
+				border-color: #d5d5d5;
+				color: #333333;
+			}
+
+			.added_to_cart.alt, .added_to_cart, .widget a.button.checkout {
+				background-color: #333333;
+				border-color: #333333;
+				color: #ffffff;
+			}
+
+			.added_to_cart.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+				background-color: #1a1a1a;
+				border-color: #1a1a1a;
+				color: #ffffff;
+			}
+
+			.button.loading {
+				color: #eeeeee;
+			}
+
+			.button.loading:hover {
+				background-color: #eeeeee;
+			}
+
+			.button.loading:after {
+				color: #333333;
+			}
+
+			@media screen and ( min-width: 768px ) {
+				.site-header-cart .widget_shopping_cart,
+				.site-header .product_list_widget li .quantity {
+					color: #ff5733;
+				}
+
+				.site-header-cart .widget_shopping_cart .buttons,
+				.site-header-cart .widget_shopping_cart .total {
+					background-color: #000000;
+				}
+
+				.site-header-cart .widget_shopping_cart {
+					background-color: #000000;
+				}
+			}
+				.storefront-product-pagination a {
+					color: #6d6d6d;
+					background-color: #ffffff;
+				}
+				.storefront-sticky-add-to-cart {
+					color: #6d6d6d;
+					background-color: #ffffff;
+				}
+
+				.storefront-sticky-add-to-cart a:not(.button) {
+					color: #ffc300;
+				}
+</style>
 <ul>
   <li><a href="index.html"><img alt src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh7ce0raUOLbFVLhquZfJfR3kZuebugpfejlOpXEz-ySlYDtXJdqF5b8wvUABXLveDZWfqwLeal2ki8v6w6qMqMYdRraru3lwzaewvE1I6zqi_a2kT1NgBy7bER6nzJrgZwLgbLe0_nBMkc63Sh8B-UUfKWCYArMFXmSiwkQ_2JvJWem01EspKOl-B3xIg/s400/home.jpg" width="50" /></a></li>
   <li><a href="index.html">Inicio</a></li>
