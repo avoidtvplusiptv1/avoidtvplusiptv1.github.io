@@ -53,7 +53,7 @@ http://181.78.15.155:9800/play/a00d
 #EXTINF:-1 tvg-id="Canal.Cinema.Platino.sv" group-title="Cine",Cinema Platino
 http://181.78.15.155:9800/play/a00e
 
-#EXTINF:-1 tvg-id="508dtv.cl" group-title="Cine",Studio Universal
+#EXTINF:-1 tvg-id="Canal.Studio.Universal.(Panregional).sv" group-title="Cine",Studio Universal
 http://45.235.37.227/studiouniversalhd/index.m3u8
 
 #EXTINF:-1 tvg-id="518dtv.ar" group-title="Cine",Space
@@ -83,7 +83,7 @@ http://138.121.15.230:8081/SONY-MOVIES/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Pánico.sv" group-title="Cine",Panico
 https://streaming.onnethn.com/PANICO_HD/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1524dtv.co" group-title="Premium",HBO
+#EXTINF:-1 tvg-id="1524dtv.co" tvg-logo="https://i.imgur.com/7u7TwKV.png" group-title="Premium",HBO
 https://streaming.onnethn.com/HBO/playlist.m3u8
 
 #EXTINF:-1 tvg-id="525dtv.cl" group-title="Premium",HBO 2
@@ -113,7 +113,7 @@ https://g10.bemtv.cn/STREAM/6594/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Universal.Comedy.sv" group-title="Premium",Universal Comedy
 https://g10.bemtv.cn/STREAM/9112/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1574dtv.cl" group-title="Premium",Universal Crime
+#EXTINF:-1 tvg-id="Canal.Universal.Crime.sv" group-title="Premium",Universal Crime
 https://g10.bemtv.cn/STREAM/9086/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Universal.Premiere.sv" group-title="Premium",Universal Premiere
@@ -128,7 +128,7 @@ http://45.235.37.228/babytv/index.m3u8
 #EXTINF:-1 tvg-id="304dtv.cl" group-title="Infantil",Cartoon Network
 http://45.235.37.226/cartoonnetworkhd/index.m3u8
 
-#EXTINF:-1 tvg-id="334dtv.cl" tvg-logo="https://i.imgur.com/4rAj1Wj.png" group-title="Infantil",Cartoonito
+#EXTINF:-1 tvg-id="Canal.Cartoonito.(Panregional).sv" tvg-logo="https://i.imgur.com/4rAj1Wj.png" group-title="Infantil",Cartoonito
 http://45.235.37.227:80/cartoonito/index.m3u8
 
 #EXTINF:-1 tvg-id="330dtv.co" group-title="Infantil",Discovery Kids
@@ -146,7 +146,7 @@ http://190.93.224.42/NICK/index.m3u8
 #EXTINF:-1 tvg-id="309dtv.cl" group-title="Infantil",Nick.Jr
 http://45.235.37.228/nickjrsd/index.m3u8
 
-#EXTINF:-1 tvg-id="tooncast.ar" tvg-logo="https://i.imgur.com/24jtSNy.png" group-title="Infantil",Tooncast
+#EXTINF:-1 tvg-id="Canal.Tooncast.sv" tvg-logo="https://i.imgur.com/24jtSNy.png" group-title="Infantil",Tooncast
 http://45.235.37.228/tooncast/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.co" group-title="Deportes",ESPN
@@ -221,7 +221,7 @@ http://190.93.224.42/HISTORY/index.m3u8
 #EXTINF:-1 tvg-id="744dtv.cl" group-title="Cultura",History 2
 http://190.93.224.42/HISTORY-2/index.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/TV_Agro_logo.svg/1280px-TV_Agro_logo.svg.png" group-title="Cultura",TVAgro
+#EXTINF:-1 tvg-id="1" tvg-logo="https://i.imgur.com/0bpGMmu.png" group-title="Cultura",TVAgro
 http://181.78.15.155:9800/play/a00k
 
 #EXTINF:-1 tvg-id="229dtv.cl" group-title="Entretenimiento",Discovery Home & Health
@@ -269,13 +269,13 @@ http://45.235.37.228/telemundosd/playlist.m3u8
 #EXTINF:-1 tvg-id="225dtv.cl" group-title="Entretenimiento",Pasiones
 http://190.93.224.42/PASIONES/index.m3u8
 
-#EXTINF:-1 tvg-id="704dtv.cl" group-title="Noticias",CNN en Español
+#EXTINF:-1 tvg-id="704dtv.cl" tvg-logo="https://i.imgur.com/XTmxd1m.png" group-title="Noticias",CNN en Español
 https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8
 
-#EXTINF:-1 tvg-id="145dtv.co" group-title="Noticias",NTN24
+#EXTINF:-1 tvg-id="145dtv.co" tvg-logo="https://i.imgur.com/nI3jaJd.png" group-title="Noticias",NTN24
 http://45.235.37.227/ntn24/playlist.m3u8
 
-#EXTINF:-1 tvg-id="telesur.ar" group-title="Noticias",Telesur
+#EXTINF:-1 tvg-id="telesur.ar" tvg-logo="https://i.imgur.com/leLnSKw.png" group-title="Noticias",Telesur
 https://streaming.onnethn.com/TELESUR/index.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-logo="https://lagazzettadf.com/wp-content/uploads/2014/10/hispan_tv.png" group-title="Noticias",Hispan
@@ -284,7 +284,7 @@ https://streaming.onnethn.com/HISPAN_TV/index.m3u8
 #EXTINF:-1 tvg-id="836dtv.cl" group-title="Noticias",Deustche Welle
 http://138.121.15.230:8081/DW/index.m3u8
 
-#EXTINF:-1 tvg-id="france-24-espanol.ar" group-title="Noticias",France24
+#EXTINF:-1 tvg-id="france-24-espanol.ar" tvg-logo="https://i.imgur.com/vqflNtQ.png" group-title="Noticias",France 24
 http://138.121.15.230:8081/FRANCE-24/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Fox.News.sv" group-title="Noticias",Fox News
@@ -314,7 +314,7 @@ http://187.102.210.46/BETHEL/index.m3u8
 #EXTINF:-1 tvg-id="Canal.ESNE.TV.sv" group-title="Religion",El Sembrador
 https://streaming.onnethn.com/EL_SEMBRADOR/playlist.m3u8
 
-#EXTINF:-1 tvg-id="352dtv.cl" group-title="Religion",Enlace
+#EXTINF:-1 tvg-id="352dtv.cl" tvg-logo="https://i.imgur.com/EO2vmwM.png" group-title="Religion",Enlace
 http://138.121.15.230:8081/ENLACE/index.m3u8
 
 #EXTINF:-1 tvg-id="ewtn.pe" group-title="Religion",EWTN
@@ -363,7 +363,7 @@ http://138.121.15.230:8081/CANAL-UNO/index.m3u8
 http://138.121.15.230:8081/SENAL-COLOMBIA/index.m3u8
 
 #EXTINF:-1 tvg-id="138dtv.co" tvg-logo="https://i.imgur.com/cAP6KSs.png" group-title="Colombia",Canal Institucional
-http://181.225.189.6:4000/play/a00b
+https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CANAL.CONGRESO.co" group-title="Colombia",Canal Congreso
 http://181.225.189.6:4000/play/a00a
