@@ -222,7 +222,7 @@ http://190.93.224.42/HISTORY/index.m3u8
 http://190.93.224.42/HISTORY-2/index.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-logo="https://i.imgur.com/0bpGMmu.png" group-title="Cultura",TVAgro
-http://181.78.15.155:9800/play/a00k
+https://g10.bemtv.cn/STREAM/16074/playlist.m3u8
 
 #EXTINF:-1 tvg-id="229dtv.cl" group-title="Entretenimiento",Discovery Home & Health
 http://45.235.37.226/hhhd/index.m3u8
