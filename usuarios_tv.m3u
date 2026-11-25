@@ -236,7 +236,7 @@ http://45.235.37.228/mtvsd/index.m3u8
 #EXTINF:-1 tvg-id="HGTV.co" group-title="Entretenimiento",HGTV
 https://streaming.onnethn.com/HGTV/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="http://meta.nordvpn.best/hogartv.png",Hogar TV 
+#EXTINF:-1 tvg-id="1" tvg-logo="https://irp.cdn-website.com/9ee784dc/dms3rep/multi/opt/hogartv-6bdef0fd-640w.png",Hogar TV 
 https://g10.bemtv.cn/STREAM/23471/playlist.m3u8
 
 #EXTINF:-1 tvg-id="232dtv.cl" group-title="Entretenimiento",El Gourmet
@@ -278,6 +278,15 @@ https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8
 #EXTINF:-1 tvg-id="145dtv.co" tvg-logo="https://i.imgur.com/nI3jaJd.png" group-title="Noticias",NTN24
 http://45.235.37.227/ntn24/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Canal.Cablenoticias.sv" group-title="Noticias",Cablenoticias
+https://g10.bemtv.cn/STREAM/22860/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Canal.CNN.Chile.sv" group-title="Noticias",CNN Chile
+http://45.235.37.227/cnnchilehd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Canal.24.Horas.(Chile).sv" group-title="Noticias",24 Horas Chile
+http://45.235.37.228/24horashd/playlist.m3u8
+
 #EXTINF:-1 tvg-id="telesur.ar" tvg-logo="https://i.imgur.com/leLnSKw.png" group-title="Noticias",Telesur
 https://streaming.onnethn.com/TELESUR/index.m3u8
 
@@ -296,20 +305,26 @@ http://138.121.15.230:8081/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="Canal.BBC.World.News.sv" group-title="Noticias",BBC World News
 http://138.121.15.230:8081/BBC-NEWS/index.m3u8
 
-#EXTINF:-1 tvg-id="HTV.co" group-title="Musica",HTV
+#EXTINF:-1 tvg-id="HTV.co" group-title="Música",HTV
 http://138.121.15.230:8081/HTV/index.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://ewsat.com/img/MI_GENTE.png" group-title="Musica",Mi Gente
+#EXTINF:-1 tvg-id="1" tvg-logo="https://ewsat.com/img/MI_GENTE.png" group-title="Música",Mi Gente
 https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/video.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://ruralink.com.co/wp-content/uploads/2023/07/logo-rumba-tv.png" group-title="Musica",Rumba TV
+#EXTINF:-1 tvg-id="1" tvg-logo="https://ruralink.com.co/wp-content/uploads/2023/07/logo-rumba-tv.png" group-title="Música",Rumba TV
 http://181.78.15.155:9800/play/a01j
 
 #EXTINF:-1 tvg-id="Canal.Telenostalgia.sv" group-title="Musica",Telenostalgia
 https://g10.bemtv.cn/STREAM/9130/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Musica",La Kalle
+#EXTINF:-1 tvg-id="1" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Música",La Kalle
 http://181.225.189.6:4000/play/a003
+
+#EXTINF:-1 tvg-id="Canal.Zona.Latina.sv" group-title="Música",Zona Latina
+https://g10.bemtv.cn/STREAM/334/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Canal.Vía.X.sv" group-title="Música",Vía X
+https://g10.bemtv.cn/STREAM/333/playlist.m3u8
 
 #EXTINF:-1 tvg-id="bethel.la" group-title="Religion",Bethel
 http://187.102.210.46/BETHEL/index.m3u8
@@ -439,3 +454,28 @@ http://190.93.224.42/GLOBAL/index.m3u8
 
 #EXTINF:-1 tvg-id="2047mvstr.pe" tvg-logo="https://i.imgur.com/YWt5g54.png" group-title="Perú",USMP TV
 http://190.93.224.42/USMP/index.m3u8
+
+#EXTINF:-1 tvg-id="181dtv.ec" group-title="Ecuador",TC Television
+http://157.100.248.242:8080/TCTelevisionHD/index.m3u8
+
+#EXTINF:-1 tvg-id="1" tvg-logo="https://76ded2a6c6.cbaul-cdnwnd.com/8efa10c166d2365aa4db93a551426d02/200000073-7644e76450/Televicentro-Ecuador-TVC-en-vivo-Online.png" group-title="Ecuador",TVC
+http://157.100.248.242:8080/TVCHD/index.m3u8
+
+#EXTINF:-1 tvg-id="185dtv.ec" group-title="Ecuador",RTS
+http://157.100.248.242:8080/RTSHD/index.m3u8
+
+#EXTINF:-1 tvg-id="180dtv.ec" group-title="Ecuador",Teleamazonas
+http://157.100.248.242:8080/TeleamazonasHD/index.m3u8
+
+#EXTINF:-1 tvg-id="182dtv.ec" group-title="Ecuador",Ecuavisa
+https://g10.bemtv.cn/STREAM/11613/playlist.m3u8
+
+#EXTINF:-1 tvg-id="lch3095.ecu" group-title="Ecuador",Oromar
+https://stream.oromar.tv/hls/oromartv_low/index.m3u8
+
+#EXTINF:-1 tvg-id="183dtv.ec" group-title="Ecuador",Gamavision
+https://g10.bemtv.cn/STREAM/719/playlist.m3u8
+
+#EXTINF:-1 tvg-id="187dtv.ec" group-title="Ecuador",Ecuador TV
+https://g10.bemtv.cn/STREAM/905/playlist.m3u8
+
