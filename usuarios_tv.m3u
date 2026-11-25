@@ -32,7 +32,7 @@ http://45.235.37.228/fxhd/index.m3u8
 #EXTINF:-1 tvg-id="207dtv.cl" group-title="Series",A&E
 http://45.235.37.228/aehd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="213dtv.cl" group-title="Series",TNT Series
+#EXTINF:-1 tvg-id="213dtv.cl" tvg-logo="https://i.imgur.com/mHL9aK8.png" group-title="Series",TNT Series
 http://190.93.224.42/TNT-SERIES/index.m3u8
 
 #EXTINF:-1 tvg-id="864mvstr.co" group-title="Series",TNT Novelas
@@ -128,7 +128,7 @@ http://45.235.37.228/babytv/index.m3u8
 #EXTINF:-1 tvg-id="304dtv.cl" group-title="Infantil",Cartoon Network
 http://45.235.37.226/cartoonnetworkhd/index.m3u8
 
-#EXTINF:-1 tvg-id="334dtv.cl" group-title="Infantil",Cartoonito
+#EXTINF:-1 tvg-id="334dtv.cl" tvg-logo="https://i.imgur.com/4rAj1Wj.png" group-title="Infantil",Cartoonito
 http://45.235.37.227:80/cartoonito/index.m3u8
 
 #EXTINF:-1 tvg-id="330dtv.co" group-title="Infantil",Discovery Kids
@@ -146,7 +146,7 @@ http://190.93.224.42/NICK/index.m3u8
 #EXTINF:-1 tvg-id="309dtv.cl" group-title="Infantil",Nick.Jr
 http://45.235.37.228/nickjrsd/index.m3u8
 
-#EXTINF:-1 tvg-id="tooncast.ar" group-title="Infantil",Tooncast
+#EXTINF:-1 tvg-id="tooncast.ar" tvg-logo="https://i.imgur.com/24jtSNy.png" group-title="Infantil",Tooncast
 http://45.235.37.228/tooncast/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.co" group-title="Deportes",ESPN
@@ -197,10 +197,10 @@ http://45.235.37.228/tlcsd/index.m3u8
 #EXTINF:-1 tvg-id="736dtv.cl" group-title="Cultura",Discovery Turbo
 http://190.93.224.42/DISCOVERY-TURBO/index.m3u8
 
-#EXTINF:-1 tvg-id="discovery-science.cl" group-title="Cultura",Discovery Science
+#EXTINF:-1 tvg-id="discovery-science.cl" tvg-logo="https://i.imgur.com/HjiSJuL.png" group-title="Cultura",Discovery Science
 https://g10.bemtv.cn/STREAM/9116/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1738dtv.cl" group-title="Cultura",Discovery World
+#EXTINF:-1 tvg-id="1738dtv.cl" tvg-logo="https://i.imgur.com/jcM76YH.png" group-title="Cultura",Discovery World
 https://g10.bemtv.cn/STREAM/9653/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1731dtv.cl" group-title="Cultura",Discovery Theater
@@ -209,7 +209,7 @@ http://45.235.37.227/discoverytheaterhd/index.m3u8
 #EXTINF:-1 tvg-id="734dtv.cl" group-title="Cultura",Animal Planet
 http://45.235.37.227/animalplanethd/index.m3u8
 
-#EXTINF:-1 tvg-id="730dtv.cl" group-title="Cultura",National Geographic
+#EXTINF:-1 tvg-id="730dtv.cl" tvg-logo="https://i.imgur.com/kjkBhvk.png" group-title="Cultura",National Geographic
 http://190.93.224.42/NAT-GEO/index.m3u8
 
 #EXTINF:-1 tvg-id="865mvstr.cl" group-title="Cultura",Love Nature
@@ -221,7 +221,7 @@ http://190.93.224.42/HISTORY/index.m3u8
 #EXTINF:-1 tvg-id="744dtv.cl" group-title="Cultura",History 2
 http://190.93.224.42/HISTORY-2/index.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://colombiasisabe.com/wp-content/uploads/2022/12/500a1f59894a5cb4759d855105a37665-550x550.jpg" group-title="Cultura",TVAgro
+#EXTINF:-1 tvg-id="1" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/TV_Agro_logo.svg/1280px-TV_Agro_logo.svg.png" group-title="Cultura",TVAgro
 http://181.78.15.155:9800/play/a00k
 
 #EXTINF:-1 tvg-id="229dtv.cl" group-title="Entretenimiento",Discovery Home & Health
@@ -260,7 +260,7 @@ http://181.225.189.6:4000/play/a01t
 #EXTINF:-1 tvg-id="977mvstr.co" group-title="Entretenimiento",RCN Novelas
 http://45.235.37.227/rcnnovelas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Mas.Chic.co" group-title="Entretenimiento",Más Chic
+#EXTINF:-1 tvg-id="Canal.Más.Chic.Latinoamérica.sv" group-title="Entretenimiento",Más Chic
 http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Telemundo.(Panregional).sv" group-title="Entretenimiento",Telemundo Internacional
@@ -350,25 +350,25 @@ http://45.235.37.227/chvhd/playlist.m3u8
 #EXTINF:-1 group-title="Chile" tvg-id="152dtv.cl" tvg-logo="https://anmax.cl/logos/canal13hd.png",Canal 13
 http://45.235.37.227/canal13hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Caracol.co" group-title="Colombia",Caracol
+#EXTINF:-1 tvg-id="Canal.Caracol.(Colombia).sv" group-title="Colombia",Caracol
 http://138.121.15.230:8081/CARACOL/index.m3u8
 
 #EXTINF:-1 tvg-id="130dtv.co" group-title="Colombia",Canal RCN
 http://138.121.15.230:8081/RCN/index.m3u8
 
-#EXTINF:-1 tvg-id="136dtv.co" group-title="Colombia",Canal 1
+#EXTINF:-1 tvg-id="136dtv.co" tvg-logo="https://media.bss-prd.directvgo.com/media/catalog/product/c/a/canal_1_hd.png" group-title="Colombia",Canal 1
 http://138.121.15.230:8081/CANAL-UNO/index.m3u8
 
 #EXTINF:-1 tvg-id="137dtv.co" group-title="Colombia",Señal Colombia
 http://138.121.15.230:8081/SENAL-COLOMBIA/index.m3u8
 
-#EXTINF:-1 tvg-id="138dtv.co" group-title="Colombia",Canal Institucional
+#EXTINF:-1 tvg-id="138dtv.co" tvg-logo="https://i.imgur.com/cAP6KSs.png" group-title="Colombia",Canal Institucional
 http://181.225.189.6:4000/play/a00b
 
 #EXTINF:-1 tvg-id="CANAL.CONGRESO.co" group-title="Colombia",Canal Congreso
 http://181.225.189.6:4000/play/a00a
 
-#EXTINF:-1 tvg-id="140dtv.co" group-title="Colombia",Teleantioquia
+#EXTINF:-1 tvg-id="140dtv.co" tvg-logo="https://media.bss-prd.directvgo.com/media/catalog/product/t/e/tele_antioquia_2.png" group-title="Colombia",Teleantioquia
 https://g10.bemtv.cn/STREAM/22588/playlist.m3u8
 
 #EXTINF:-1 tvg-id="141dtv.co" group-title="Colombia",Telepacifico
@@ -377,13 +377,13 @@ https://g10.bemtv.cn/STREAM/22590/playlist.m3u8
 #EXTINF:-1 tvg-id="142dtv.co" group-title="Colombia",Telecaribe
 http://138.121.15.230:8081/TELECARIBE/index.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Capital.co" group-title="Colombia",Canal Capital
+#EXTINF:-1 tvg-id="Canal.Capital.(Colombia).sv" group-title="Colombia",Canal Capital
 http://181.225.189.6:4000/play/a009
 
 #EXTINF:-1 tvg-id="Telecafé.co" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/05/Telecafe%CC%81-en-vivo-Online-768x432.png" group-title="Colombia",Telecafé
 http://138.121.15.230:8081/TELECAFE/index.m3u8
 
-#EXTINF:-1 tvg-id="133dtv.co" group-title="Colombia",Citytv
+#EXTINF:-1 tvg-id="133dtv.co" tvg-logo="https://i.imgur.com/uNzmYn9.png" group-title="Colombia",Citytv
 http://138.121.15.230:8081/CITY-TV/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Tro.sv" group-title="Colombia",Canal TRO
