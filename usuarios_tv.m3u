@@ -23,7 +23,7 @@ https://streaming.onnethn.com/ID/playlist.m3u8
 #EXTINF:-1 tvg-id="218dtv.cl" group-title="Series",Universal TV
 http://45.235.37.228/universalhd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://i.imgur.com/xT6AxyF.png" group-title="Series",AMC Series
+#EXTINF:-1 tvg-id="230dtv.cl" tvg-logo="https://i.imgur.com/xT6AxyF.png" group-title="Series",AMC Series
 http://200.7.99.59:8000/play/a0qv/index.m3u8
 
 #EXTINF:-1 tvg-id="217dtv.cl" group-title="Series",FX
@@ -259,6 +259,9 @@ http://181.225.189.6:4000/play/a01t
 
 #EXTINF:-1 tvg-id="977mvstr.co" group-title="Entretenimiento",RCN Novelas
 http://45.235.37.227/rcnnovelas/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mas.Chic.co" group-title="Entretenimiento",Más Chic
+http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Telemundo.(Panregional).sv" group-title="Entretenimiento",Telemundo Internacional
 http://45.235.37.228/telemundosd/playlist.m3u8
