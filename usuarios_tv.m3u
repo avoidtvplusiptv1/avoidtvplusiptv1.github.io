@@ -236,6 +236,9 @@ http://45.235.37.228/mtvsd/index.m3u8
 #EXTINF:-1 tvg-id="HGTV.co" group-title="Entretenimiento",HGTV
 https://streaming.onnethn.com/HGTV/playlist.m3u8
 
+#EXTINF:-1 tvg-id="1" tvg-logo="http://meta.nordvpn.best/hogartv.png",Hogar TV 
+https://g10.bemtv.cn/STREAM/23471/playlist.m3u8
+
 #EXTINF:-1 tvg-id="232dtv.cl" group-title="Entretenimiento",El Gourmet
 http://138.121.15.230:8081/EL-GOURMET/index.m3u8
 
@@ -303,7 +306,7 @@ https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/video.m3u8
 http://181.78.15.155:9800/play/a01j
 
 #EXTINF:-1 tvg-id="Canal.Telenostalgia.sv" group-title="Musica",Telenostalgia
-http://181.78.15.155:9800/play/a01i
+https://g10.bemtv.cn/STREAM/9130/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Musica",La Kalle
 http://181.225.189.6:4000/play/a003
