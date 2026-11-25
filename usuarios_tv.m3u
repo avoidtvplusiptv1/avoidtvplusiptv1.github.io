@@ -320,6 +320,12 @@ http://138.121.15.230:8081/ENLACE/index.m3u8
 #EXTINF:-1 tvg-id="ewtn.pe" group-title="Religion",EWTN
 https://streaming.onnethn.com/EWTN/playlist.m3u8
 
+#EXTINF:-1 tvg-id="117dtv.co" group-title="Religion",TV Familia
+https://59d39900ebfb8.streamlock.net/tvfamilia_480p/tvfamilia_480p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="1" tvg-logo="https://www.cmbcolombia.tv/images/fav/favicon.png" group-title="Religion",CMB Television
+https://cdn1.cmbcolombia.tv/bethesda/chunks.m3u8
+
 #EXTINF:-1 tvg-id="589" group-title="Hot",Playboy
 https://streaming.onnethn.com/PLAYBOY/playlist.m3u8
 
