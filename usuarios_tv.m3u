@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz,https://epg.programadorx.cl/mdiaz/gratis.xml.gz"
 #EXTINF:-1 tvg-id="202dtv.co" group-title="Series",Star Channel
 http://138.121.15.230:8081/STAR-CHANNEL/index.m3u8
 
