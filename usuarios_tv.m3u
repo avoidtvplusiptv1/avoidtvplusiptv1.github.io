@@ -263,9 +263,6 @@ http://181.225.189.6:4000/play/a01t
 #EXTINF:-1 tvg-id="977mvstr.co" group-title="Entretenimiento",RCN Novelas
 http://45.235.37.227/rcnnovelas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Más.Chic.Latinoamérica.sv" group-title="Entretenimiento",Más Chic
-http://45.134.141.161:2200/ARG/Mas_Chic/index.m3u8
-
 #EXTINF:-1 tvg-id="Canal.Telemundo.(Panregional).sv" group-title="Entretenimiento",Telemundo Internacional
 http://45.235.37.228/telemundosd/playlist.m3u8
 
@@ -470,7 +467,7 @@ http://157.100.248.242:8080/TeleamazonasHD/index.m3u8
 #EXTINF:-1 tvg-id="182dtv.ec" group-title="Ecuador",Ecuavisa
 https://g10.bemtv.cn/STREAM/11613/playlist.m3u8
 
-#EXTINF:-1 tvg-id="lch3095.ecu" group-title="Ecuador",Oromar
+#EXTINF:-1 tvg-id="lch3095.ecu" tvg-logo="https://i.imgur.com/6rfHSwq.png" group-title="Ecuador",Oromar
 https://stream.oromar.tv/hls/oromartv_low/index.m3u8
 
 #EXTINF:-1 tvg-id="183dtv.ec" group-title="Ecuador",Gamavision
