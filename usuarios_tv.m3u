@@ -23,11 +23,11 @@ https://streaming.onnethn.com/ID/playlist.m3u8
 #EXTINF:-1 tvg-id="218dtv.cl" group-title="Series",Universal TV
 http://45.235.37.228/universalhd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1" group-title="Series",AMC Series
+#EXTINF:-1 tvg-id="1" tvg-logo="https://i.imgur.com/xT6AxyF.png" group-title="Series",AMC Series
 http://200.7.99.59:8000/play/a0qv/index.m3u8
 
 #EXTINF:-1 tvg-id="217dtv.cl" group-title="Series",FX
-http://190.93.224.42/FX/index.m3u8
+http://45.235.37.228/fxhd/index.m3u8
 
 #EXTINF:-1 tvg-id="207dtv.cl" group-title="Series",A&E
 http://45.235.37.228/aehd/playlist.m3u8
@@ -38,7 +38,7 @@ http://190.93.224.42/TNT-SERIES/index.m3u8
 #EXTINF:-1 tvg-id="864mvstr.co" group-title="Series",TNT Novelas
 http://190.93.224.42/TNT-NOVELAS/index.m3u8
 
-#EXTINF:-1 tvg-id="502dtv.ar" group-title="Cine",TNT
+#EXTINF:-1 tvg-id="Canal.TNT.(Sur).sv" group-title="Cine",TNT
 http://190.93.224.42/TNT/index.m3u8
 
 #EXTINF:-1 tvg-id="1509dtv.cl" group-title="Cine",Cinemax
@@ -74,7 +74,7 @@ https://streaming.onnethn.com/CINE_LATINO/playlist.m3u8
 #EXTINF:-1 tvg-id="507dtv.co" group-title="Cine",Cinecanal
 http://45.235.37.228/cinecanalhd/index.m3u8
 
-#EXTINF:-1 tvg-id="504dtv.cl" group-title="Cine",TCM
+#EXTINF:-1 tvg-id="504dtv.cl" tvg-logo="https://i.imgur.com/vtGCzlq.png" group-title="Cine",TCM
 http://138.121.15.230:8081/TCM/index.m3u8
 
 #EXTINF:-1 tvg-id="1506dtv.cl" group-title="Cine",Sony Movies
@@ -107,16 +107,16 @@ https://g10.bemtv.cn/STREAM/13030/playlist.m3u8
 #EXTINF:-1 tvg-id="542dtv.cl" group-title="Premium",HBO Xtreme
 http://190.93.224.42/HBO-XTREME/index.m3u8
 
-#EXTINF:-1 tvg-id="1572dtv.cl" group-title="Premium",Universal Cinema
+#EXTINF:-1 tvg-id="Canal.Universal.Cinema.sv" group-title="Premium",Universal Cinema
 https://g10.bemtv.cn/STREAM/6594/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1573dtv.cl" group-title="Premium",Universal Comedy
+#EXTINF:-1 tvg-id="Canal.Universal.Comedy.sv" group-title="Premium",Universal Comedy
 https://g10.bemtv.cn/STREAM/9112/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1574dtv.cl" group-title="Premium",Universal Crime
 https://g10.bemtv.cn/STREAM/9086/playlist.m3u8
 
-#EXTINF:-1 tvg-id="571dtv.cl" group-title="Premium",Universal Premiere
+#EXTINF:-1 tvg-id="Canal.Universal.Premiere.sv" group-title="Premium",Universal Premiere
 https://g10.bemtv.cn/STREAM/6593/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Canal.Universal.Reality.sv" group-title="Premium",Universal Reality
@@ -209,7 +209,7 @@ http://45.235.37.227/discoverytheaterhd/index.m3u8
 #EXTINF:-1 tvg-id="734dtv.cl" group-title="Cultura",Animal Planet
 http://45.235.37.227/animalplanethd/index.m3u8
 
-#EXTINF:-1 tvg-id="629dtv.cl" group-title="Cultura",National Geographic
+#EXTINF:-1 tvg-id="730dtv.cl" group-title="Cultura",National Geographic
 http://190.93.224.42/NAT-GEO/index.m3u8
 
 #EXTINF:-1 tvg-id="865mvstr.cl" group-title="Cultura",Love Nature
@@ -233,7 +233,7 @@ https://g10.bemtv.cn/STREAM/13092/playlist.m3u8
 #EXTINF:-1 tvg-id="mtv.cl" group-title="Entretenimiento",MTV
 http://45.235.37.228/mtvsd/index.m3u8
 
-#EXTINF:-1 tvg-id="hgtv.ar" group-title="Entretenimiento",HGTV
+#EXTINF:-1 tvg-id="HGTV.co" group-title="Entretenimiento",HGTV
 https://streaming.onnethn.com/HGTV/playlist.m3u8
 
 #EXTINF:-1 tvg-id="232dtv.cl" group-title="Entretenimiento",El Gourmet
@@ -242,10 +242,10 @@ http://138.121.15.230:8081/EL-GOURMET/index.m3u8
 #EXTINF:-1 tvg-id="222dtv.cl" group-title="Entretenimiento",E! Entertainment
 https://streaming.onnethn.com/E_ENTERTAINMENT/index.m3u8
 
-#EXTINF:-1 tvg-id="228dtv.cl" group-title="Entretenimiento",Lifetime
+#EXTINF:-1 tvg-id="Canal.Lifetime.(Panregional).sv" group-title="Entretenimiento",Lifetime
 http://138.121.15.230:8081/LIFETIME/index.m3u8
 
-#EXTINF:-1 tvg-id="220dtv.cl" group-title="Entretenimiento",Adult Swim
+#EXTINF:-1 tvg-id="AdultSwim.co" group-title="Entretenimiento",Adult Swim
 http://45.235.37.228/trutvhd/index.m3u8
 
 #EXTINF:-1 tvg-id="226dtv.cl" group-title="Entretenimiento",Las Estrellas
@@ -254,13 +254,13 @@ http://45.235.37.227/lasestrellashd/playlist.m3u8
 #EXTINF:-1 tvg-id="227dtv.cl" group-title="Entretenimiento",Telenovelas
 http://138.121.15.230:8081/TELENOVELAS/index.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Ve.Plus.(LatinoamÃ©rica).sv" group-title="Entretenimiento",Ve Plus
+#EXTINF:-1 tvg-id="Canal.Ve.Plus.(Latinoamérica).sv" group-title="Entretenimiento",Ve Plus
 http://181.225.189.6:4000/play/a01t
 
-#EXTINF:-1 tvg-id="227dtv.cl" group-title="Entretenimiento",RCN Novelas
+#EXTINF:-1 tvg-id="977mvstr.co" group-title="Entretenimiento",RCN Novelas
 http://45.235.37.227/rcnnovelas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="231dtv.cl" group-title="Entretenimiento",Telemundo Internacional
+#EXTINF:-1 tvg-id="Canal.Telemundo.(Panregional).sv" group-title="Entretenimiento",Telemundo Internacional
 http://45.235.37.228/telemundosd/playlist.m3u8
 
 #EXTINF:-1 tvg-id="225dtv.cl" group-title="Entretenimiento",Pasiones
@@ -290,10 +290,10 @@ http://138.121.15.230:8081/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="Canal.BBC.World.News.sv" group-title="Noticias",BBC World News
 http://138.121.15.230:8081/BBC-NEWS/index.m3u8
 
-#EXTINF:-1 tvg-id="272dtv.cl" group-title="Musica",HTV
+#EXTINF:-1 tvg-id="HTV.co" group-title="Musica",HTV
 http://138.121.15.230:8081/HTV/index.m3u8
 
-#EXTINF:-1 tvg-id="629dtv.cl" group-title="Musica",Mi Gente
+#EXTINF:-1 tvg-id="1" tvg-logo="https://ewsat.com/img/MI_GENTE.png" group-title="Musica",Mi Gente
 https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/video.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-logo="https://ruralink.com.co/wp-content/uploads/2023/07/logo-rumba-tv.png" group-title="Musica",Rumba TV
@@ -320,7 +320,7 @@ https://streaming.onnethn.com/EWTN/playlist.m3u8
 #EXTINF:-1 tvg-id="589" group-title="Hot",Playboy
 https://streaming.onnethn.com/PLAYBOY/playlist.m3u8
 
-#EXTINF:-1 tvg-id="590" group-title="Hot",Venus
+#EXTINF:-1 tvg-id="590" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Canal_Venus_logo.svg/960px-Canal_Venus_logo.svg.png" group-title="Hot",Venus
 https://streaming.onnethn.com/VENUS/playlist.m3u8
 
 #EXTINF:-1 group-title="Chile" tvg-id="tvmas.cl" tvg-logo="https://anmax.cl/logos/tv+.png",TV+
@@ -341,7 +341,7 @@ http://45.235.37.227/chvhd/playlist.m3u8
 #EXTINF:-1 group-title="Chile" tvg-id="152dtv.cl" tvg-logo="https://anmax.cl/logos/canal13hd.png",Canal 13
 http://45.235.37.227/canal13hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="132dtv.co" group-title="Colombia",Caracol
+#EXTINF:-1 tvg-id="Caracol.co" group-title="Colombia",Caracol
 http://138.121.15.230:8081/CARACOL/index.m3u8
 
 #EXTINF:-1 tvg-id="130dtv.co" group-title="Colombia",Canal RCN
@@ -368,25 +368,25 @@ https://g10.bemtv.cn/STREAM/22590/playlist.m3u8
 #EXTINF:-1 tvg-id="142dtv.co" group-title="Colombia",Telecaribe
 http://138.121.15.230:8081/TELECARIBE/index.m3u8
 
-#EXTINF:-1 tvg-id="65" group-title="Colombia",Canal Capital
+#EXTINF:-1 tvg-id="Canal.Capital.co" group-title="Colombia",Canal Capital
 http://181.225.189.6:4000/play/a009
 
-#EXTINF:-1 tvg-id="Telecafé.co" group-title="Colombia",Telecafé
+#EXTINF:-1 tvg-id="Telecafé.co" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/05/Telecafe%CC%81-en-vivo-Online-768x432.png" group-title="Colombia",Telecafé
 http://138.121.15.230:8081/TELECAFE/index.m3u8
 
 #EXTINF:-1 tvg-id="133dtv.co" group-title="Colombia",Citytv
 http://138.121.15.230:8081/CITY-TV/index.m3u8
 
-#EXTINF:-1 tvg-id="Canal.TRO.co" group-title="Colombia",Canal TRO
+#EXTINF:-1 tvg-id="Canal.Tro.sv" group-title="Colombia",Canal TRO
 https://g10.bemtv.cn/STREAM/1659/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Canal.Trece.co" group-title="Colombia",Canal Trece
+#EXTINF:-1 tvg-id="Canal.13.de.Colombia.(Trece).sv" group-title="Colombia",Canal Trece
 https://g10.bemtv.cn/STREAM/22595/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Teleislas.co" group-title="Colombia",Teleislas
+#EXTINF:-1 tvg-id="Canal.Teleislas.sv" group-title="Colombia",Teleislas
 http://181.225.189.6:4000/play/a01e
 
-#EXTINF:-1 tvg-id="Canal.Zoom.co" group-title="Colombia",Zoom
+#EXTINF:-1 tvg-id="Canal.Zoom.co" tvg-logo="https://www.coolstreaming.us/img/ch/ima41384406574.jpg" group-title="Colombia",Zoom
 http://138.121.15.230:8081/ZOOM/index.m3u8
 
 #EXTINF:-1 tvg-id="16mvstr.pe" tvg-logo="https://i.imgur.com/jp4IxIn.png" group-title="Perú",Willax
