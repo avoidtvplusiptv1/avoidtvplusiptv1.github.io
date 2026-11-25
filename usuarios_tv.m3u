@@ -329,7 +329,7 @@ https://cdn1.cmbcolombia.tv/bethesda/chunks.m3u8
 #EXTINF:-1 tvg-id="589" group-title="Hot",Playboy
 https://streaming.onnethn.com/PLAYBOY/playlist.m3u8
 
-#EXTINF:-1 tvg-id="590" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Canal_Venus_logo.svg/960px-Canal_Venus_logo.svg.png" group-title="Hot",Venus
+#EXTINF:-1 tvg-id="590" tvg-logo="https://i.imgur.com/XtqDCmN.png" group-title="Hot",Venus
 https://streaming.onnethn.com/VENUS/playlist.m3u8
 
 #EXTINF:-1 group-title="Chile" tvg-id="tvmas.cl" tvg-logo="https://anmax.cl/logos/tv+.png",TV+
